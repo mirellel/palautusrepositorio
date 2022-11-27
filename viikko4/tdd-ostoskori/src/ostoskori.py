@@ -15,7 +15,7 @@ class Ostoskori:
     def hinta(self):
         hinta = 0
         for ostos in self.ostokset:
-            hinta += ostos.lukumaara()*ostos.hinta()
+            hinta += ostos.hinta()
         return hinta
 
 
